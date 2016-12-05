@@ -8,6 +8,7 @@ include /etc/firejail/disable-devel.inc
 blacklist /media
 blacklist /mnt
 blacklist /srv
+blacklist /var/backups
 
 caps.drop all
 netfilter
