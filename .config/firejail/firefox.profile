@@ -1,5 +1,6 @@
 noblacklist ~/.mozilla
 noblacklist ~/.cache/mozilla
+noblacklist ~/.xpdfrc
 include /etc/firejail/disable-common.inc
 include /etc/firejail/disable-programs.inc
 include /etc/firejail/disable-passwdmgr.inc
@@ -24,6 +25,7 @@ mkdir ~/.cache/mozilla/firefox
 whitelist ~/.cache/mozilla/firefox
 whitelist ~/.pentadactylrc
 whitelist ~/.pentadactyl
+whitelist ~/.xpdfrc
 
 include /etc/firejail/whitelist-common.inc
 
