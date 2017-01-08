@@ -29,6 +29,6 @@ whitelist ~/.xpdfrc
 
 include /etc/firejail/whitelist-common.inc
 
-private-etc passwd,group,hostname,hosts,localtime,nsswitch.conf,resolv.conf,resolvconf/run/resolv.conf,gtk-2.0,gtk-3.0,fonts,firefox-esr,mime.types,mailcap,pulse
+private-etc passwd,group,hostname,hosts,localtime,nsswitch.conf,resolv.conf,resolvconf/run/resolv.conf,gtk-2.0,gtk-3.0,fonts,firefox-esr,mime.types,mailcap,pulse,xpdf,cups
 private-dev
 private-tmp
